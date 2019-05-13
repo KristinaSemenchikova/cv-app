@@ -1,0 +1,11 @@
+.contact{
+  grid-area: m;
+  text-align: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center
+}
+
+
