@@ -1,3 +1,30 @@
 .main{
   grid-area: m;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
 }
+.description{
+  margin: 0;
+  padding: 0;
+}
+.story{
+  display: flex;
+  flex-direction: column; 
+}
+.skills  { 
+  font-size: 20px;
+  margin: 0;
+  padding: 0px;
+}
+.skills h1 { 
+  margin: 0;
+  padding: 0;
+}
+.skills div{ 
+  display: flex;
+  flex-direction: column;
+  padding: 50px 70px;
+  margin: 0px
+}
+

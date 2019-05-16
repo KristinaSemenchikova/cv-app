@@ -10,10 +10,13 @@ const styles = theme => ({
 });
 
 function ButtonSend(props) {
-  const { classes } = props;
+  let submit = () => {
+    console.log(contact);
+  };
+  const { classes,contact } = props;
   return (
     <div>
-      <Button variant="outlined" className={classes.button}>
+      <Button variant="outlined" className={classes.button} onClick = {submit}>
        Send
       </Button>
     </div>

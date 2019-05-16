@@ -2,6 +2,7 @@
   grid-area: n;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .nav img {
   width: 50px;

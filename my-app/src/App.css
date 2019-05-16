@@ -1,7 +1,7 @@
 .App {
   background: linear-gradient(45deg, rgb(102, 12, 221), #C5DDE8);
   display: grid;
-  grid-template-rows: 10fr 300px;
+  grid-template-rows: 600px 300px;
   grid-template-columns: 100px 10fr ;
   grid-template-areas:
    "n m " 

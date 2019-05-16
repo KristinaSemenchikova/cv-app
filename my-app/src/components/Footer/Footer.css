@@ -1,5 +1,6 @@
 .footer{
   grid-area: f;
   display: flex;
-  flex-direction: row
+  flex-direction: row;
+  position: fixed;
 }
