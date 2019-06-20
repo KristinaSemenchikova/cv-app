@@ -2,9 +2,14 @@
   grid-area: n;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .nav img {
   width: 50px;
   height: 50px;
+}
+.nav .logo{
+  width: 100px;
+  height: 100px;
+  padding: 5px 5px 120px 5px;
 }

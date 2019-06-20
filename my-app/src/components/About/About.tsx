@@ -29,8 +29,7 @@ const About = () => {
       </div>
       <div>
         <h1>My skills</h1>
-        <Typist className="skills">
-          <div>
+          <div className = 'skills'>
             <span>HTML + CSS</span>
             <span>JavaScript Fundamentals + ES6</span>
             <span>Git</span>
@@ -39,7 +38,6 @@ const About = () => {
             <span>Redux and redux libraries </span>
             <span>REST API </span>
           </div>
-        </Typist>
       </div>
     </main>
   );

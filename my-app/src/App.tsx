@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer";
+import Home from "./components/Home/Home";
 
 const App: React.FC = () => {
   return (
@@ -12,10 +13,11 @@ const App: React.FC = () => {
       <Nav />
       <div className="content">
         <Switch>
-         <Route path = '/about' render = {()=> <About />}></Route> 
-         <Route path = '/contact' render = {()=>  <Contact/>}></Route>          
+          <Route exact path="/" render={() => <Home />} />
+          <Route path="/about" render={() => <About />} />
+          <Route path="/contact" render={() => <Contact />} />
         </Switch>
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 .contact{
   grid-area: m;
+  height: 100%;
   text-align: center;
   align-self: center;
   display: flex;
